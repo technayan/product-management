@@ -1,0 +1,17 @@
+nav {
+    background: #1c1c1c;
+    padding: 10px;
+}
+
+nav a{
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: orangered;
+}
