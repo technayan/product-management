@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import AddProduct from './components/AddProduct/AddProduct';
 import ManageProduct from './components/ManageProduct/ManageProduct';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/add-product' element={<AddProduct />} />
         <Route path='/manage-product' element={<ManageProduct />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
   );
